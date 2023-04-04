@@ -1,0 +1,78 @@
+{% extends "base.html" %} {% load i18n %} {% block content %}
+
+<!--Navbar-->
+<nav class="navbar bg-body-tertiary container">
+  <div class="container-fluid">
+    <a class="navbar-brand" style="color: #4dc493"><h3>{{site_name}}</h3></a>
+    <form class="d-flex" role="search">
+      <ul class="nav">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            style="color: #4dc493"
+            href="#"
+            >Home</a
+          >
+        </li>
+        <span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #4dc493" href="#">Community</a>
+        </li>
+        <span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #4dc493" href="#">Contact</a>
+        </li>
+        <span>|</span>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #4dc493" href="#">Register</a>
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav>
+
+<!--Main-->
+{% block index %} 
+
+
+{% endblock %}
+<div class="container mt-5 mb-5 p-5">
+  <h3 class="mb-3">You are welcome to Join Us!</h3>
+  <div class="row">
+    <div class="col text-left">
+      <p>
+        Join our community and start getting into this
+        awesome world of Django!.<br/>
+        Many opportunities are waiting for you, just do it!
+       <div>
+        <a href="#" class="btn btn-success btn-sm m-2 rounded-pill">GET STARTED</a>
+        <a href="#" class="btn btn-outline-success btn-sm m-2 rounded-pill">LEARN MORE</a>
+       </div>
+      </p>
+    </div>
+    <div class="col">
+      <img
+        src="https://www.takashiirie.com/wp-content/uploads/2010/09/django_logo.gif"
+        alt="logo-django"
+        style="width: 300px; hight: 300px;"
+      />
+    </div>
+  </div>
+</div>
+<hr class="container"/>
+
+
+<!--Footer-->
+<div class="card text-center">
+  <div class="card-header">Featured</div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <a href="#" class="btn btn-success">Apple Store</a>
+  </div>
+  <div class="card-footer text-muted">2 days ago</div>
+</div>
+{% endblock %}
