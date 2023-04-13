@@ -1,0 +1,29 @@
+{% extends "layout.html" %} {% load i18n %} {% block contact %}
+
+   <div class="mt-5">
+    <div class="text-center m-5">
+        <h1>Keeping in touch</h1>
+    </div>
+    <section class="text-center">
+        <p>
+            We will send to your Email a resume of our latest news regarding Django<br/>
+            to keep you updated without any worries.<br/> Only to do, just Suscribe and enjoy!
+        </p>
+    </section>
+    <div class="container">
+      <form class="row justify-content-center mt-5 mb-5">
+        <div class="col-auto col-sm-3 m-1">
+            <label for="inputPassword2" class="visually-hidden">email</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Email Address">
+        </div>
+        <div class="col-auto col-sm-3 m-1">
+          <label for="inputPassword2" class="visually-hidden">full_name</label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="Full Name">
+        </div>
+        <div class="col-auto col-sm-3 m-1">
+          <button type="submit" class="contact-button mb-3">Suscribe</button>
+        </div>
+      </form>
+    </div>
+   </div>
+{% endblock %}  
