@@ -14805,4 +14805,10 @@ fieldset:disabled .btn {
   }
 }
 
+/* line 3, ../../../../media/cristian/Development3/Python/Django/env/files/app/static_dev/scss/_index.scss */
+#button-index a button {
+  background-color: red;
+  color: white;
+}
+
 /*# sourceMappingURL=main.css.map */
